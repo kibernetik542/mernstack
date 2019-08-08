@@ -18,8 +18,7 @@ router.post('/', [
     check('email', 'Please include a valid email').isEmail(),
     check('password', 'Please enter a password longer than 6 charachters').isLength({
         min: 6
-    })
-], async (req, res) => {
+    })], async (req, res) => {
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
         return res.status(400).json({
@@ -85,5 +84,6 @@ router.post('/', [
     }
 
 });
+
 
 module.exports = router;
