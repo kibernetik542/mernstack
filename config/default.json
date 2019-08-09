@@ -1,4 +1,6 @@
 {
     "mongoURI":"mongodb+srv://kibernetik542:Arzu-1990@cluster0-g2eht.mongodb.net/mern-stack-db",
-    "jwtSecret":"arzubanuteam"
+    "jwtSecret":"arzubanuteam",
+    "githubClientId":"e38171a001a8d4d26af3",
+    "githubSecret":"da2b74cdfef58bd12ba8b9b764ae97c029b1fba2"
 }
