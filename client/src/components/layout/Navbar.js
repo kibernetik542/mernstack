@@ -11,6 +11,10 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
                 <i className="fab fa-connectdevelop"></i>{' '}
                 <span className="hide-sm">Team</span>
             </Link></li>
+            <li><Link to="/posts">
+            <i className="fas fa-comments"></i>{' '}
+            <span className="hide-sm">Posts</span>
+        </Link></li>
             <li><Link to="/dashboard">
                 <i className="fas fa-user"></i>{' '}
                 <span className="hide-sm">Dashboard</span>
